@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("../images/back1.jpg");
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+}
+.technology{
+    font-size: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.technology .ai{
+    padding-top: 2%;
+}
+.technology .ml{
+    float: right;
+    padding-top: 3%;
+}
+.technology .ds{
+    padding-top: 20%;
+   
+}
+.technology .cs{
+    float: right;
+    padding-top: 3%;
+
+}
+.technology .iot{
+    padding-top: 20%;
+}
+.technology .et{
+    float: right;
+    padding-top: 3%;
+}
