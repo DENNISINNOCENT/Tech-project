@@ -1,0 +1,52 @@
+*{
+ box-sizing: border-box;
+ margin: 0px;
+ padding: 0px;
+}
+body{
+    background-image: url("../images/back1.jpg");
+  
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+
+}
+form {
+    justify-content: center;
+     align-items: center;
+     display: flex;
+     min-height: 100vh;
+    
+} 
+form .login{
+    background-color: blue;
+    color: black;
+    padding: 5%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 5%;
+    
+}
+form .login >.login >label{
+   margin: 20%;
+    
+}
+form >.login >.button{
+    align-items: center;
+    justify-content: center;
+    padding-top:5%;
+    text-align: center;
+}
+form >.login >.button >a >input{
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    color: rgb(3, 3, 51);
+    
+   font-family: 'Times New Roman', Times, serif;
+}
+form .login .create-account{
+    padding-top: 10%;
+    font-size: xx-large;
+    
+}
