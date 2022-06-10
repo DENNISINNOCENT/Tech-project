@@ -23,7 +23,7 @@ header{
     display: flex;
     padding: 3%;
 }
-.header >nav >.navbar >ul >li{
+.header >nav >.navbar >ul >a>li{
     justify-content: space-evenly;
     align-items: center;
     display: inline-block;
