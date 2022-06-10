@@ -47,7 +47,7 @@ form >.container >.button{
     padding-top:5%;
     text-align: center;
 }
-form >.container >.button >input{
+form >.container >.button >a>input{
     width: 50%;
     align-items: center;
     justify-content: center;
