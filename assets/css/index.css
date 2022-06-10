@@ -21,7 +21,7 @@ body{
     padding-left: 5%;
     
 }
-.buttons >input{
+.buttons > a>input {
     font-size: 25px;
     color: white;
     background-color:transparent;
