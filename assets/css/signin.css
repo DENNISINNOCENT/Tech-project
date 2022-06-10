@@ -36,7 +36,7 @@ form >.login >.button{
     padding-top:5%;
     text-align: center;
 }
-form >.login >.button >input{
+form >.login >.button >a >input{
     width: 40%;
     align-items: center;
     justify-content: center;
