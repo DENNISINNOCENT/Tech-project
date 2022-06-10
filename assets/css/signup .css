@@ -14,11 +14,45 @@ body{
     align-items: center;
 
 }
-.container{
+form {
     justify-content: center;
-    align-items: center; 
-    text-align:center;
-    min-height:40vh;
-
-
+     align-items: center;
+     display: flex;
+     min-height: 100vh;
+    
+} 
+form >.container{
+    background-color: blue;
+    color: black;
+    padding: 5%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 5%;
 }
+form >.container >.register{
+   justify-content: space-around;
+   
+}
+form >.container >.register >input{
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+   
+}
+form >.container >.button{
+    align-items: center;
+    justify-content: center;
+    padding-top:5%;
+    text-align: center;
+}
+form >.container >.button >input{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    color: rgb(3, 3, 51);
+    
+   font-family: 'Times New Roman', Times, serif;
+   }
+
+
+   
